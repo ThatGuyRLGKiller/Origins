@@ -1,6 +1,6 @@
 {
-    "name": "Holy Aura",
-    "description": "§7❖ Passive§r\nEmit a healing aura that periodically heals nearby allies.",
+    "name": "-Power Name-",
+    "description": "§7❖ Passive§r\n -Power description-",
     "type": "origins:action_over_time",
     "interval": 20,
     "entity_action": {
