@@ -1,0 +1,19 @@
+{
+    "name": "Holy Aura",
+    "description": "§7❖ Passive§r\nEmit a healing aura that periodically heals nearby allies.",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 5,
+        "radius_on_use": -0.5,
+        "wait_time": 10,
+        "effect": {
+            "effect": "regeneration",
+            "duration": 50,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}
