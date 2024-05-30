@@ -1,0 +1,77 @@
+{
+    "name": "Armor Restriction",
+    "description": "§7❖ Passive§r\nCan only wear leather and chain armor.",
+    "type": "origins:restrict_armor",
+    "head": {
+        "inverted": true,
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:chainmail_helmet"
+                }
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:leather_helmet"
+                }
+            }
+        ]
+    },
+    "chest": {
+        "inverted": true,
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:leather_chestplate"
+                }
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:chainmail_chestplate"
+                }
+            }
+        ]
+    },
+    "legs": {
+        "inverted": true,
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:leather_leggings"
+                }
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:chainmail_leggings"
+                }
+            }
+        ]
+    },
+    "feet": {
+        "inverted": true,
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:leather_boots"
+                }
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:chainmail_boots"
+                }
+            }
+        ]
+    }
+}
