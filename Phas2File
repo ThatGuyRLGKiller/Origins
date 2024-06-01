@@ -1,0 +1,42 @@
+### File 1 ###
+{
+    "name": "Phasing",
+    "description": "§7❖ Passive§r\nHold string in offhand lets you phas and fly in the ground or wall",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "string"
+            }
+        }
+    },
+    "type": "origins:phasing",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "bedrock"
+    },
+    "blacklist": true,
+    "render_type": "blindness",
+    "view_distance": 100
+}
+
+### File 2 ###
+{
+    "name": "phasFly",
+    "description": "§7❖ Passive§r\nfly",
+    "hidden": true,
+    "condition": {
+        "type": "origins:in_block",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:movement_blocking"
+                }
+            ]
+        }
+    },
+    "type": "origins:creative_flight"
+}
