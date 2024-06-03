@@ -1,0 +1,32 @@
+{
+    "name": "armor Lock",
+    "description": "The Gods themselves have bestowed upon you a set of divine armor known as \"Holy Armor.\" This enchanted armor provides exceptional durability and resilience, ensuring that you are always prepared for any battle or challenge that lies ahead. However, the armor comes with a divine curse that binds it to your body, making it irremovable once worn.",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "golden_helmet",
+            "amount": 1,
+            "tag": "{display:{Name:'[\"\",{\"text\":\"Holy Armor\",\"italic\":false}]',Lore:['[\"\",{\"text\":\"The Gods themself gave you this iteam\",\"italic\":false}]']},Enchantments:[{lvl:1,id:binding_curse},{lvl:3,id:unbreaking}]}",
+            "slot": "39"
+        },
+        {
+            "item": "golden_chestplate",
+            "amount": 1,
+            "tag": "{display:{Name:'[\"\",{\"text\":\"Holy Armor\",\"italic\":false}]',Lore:['[\"\",{\"text\":\"The Gods themself gave you this iteam\",\"italic\":false}]']},Enchantments:[{lvl:1,id:binding_curse},{lvl:3,id:unbreaking}]}",
+            "slot": "38"
+        },
+        {
+            "item": "golden_leggings",
+            "amount": 1,
+            "tag": "{display:{Name:'[\"\",{\"text\":\"Holy Armor\",\"italic\":false}]',Lore:['[\"\",{\"text\":\"The Gods themself gave you this iteam\",\"italic\":false}]']},Enchantments:[{lvl:1,id:binding_curse},{lvl:3,id:unbreaking}]}",
+            "slot": "37"
+        },
+        {
+            "item": "golden_boots",
+            "amount": 1,
+            "tag": "{display:{Name:'[\"\",{\"text\":\"Holy Armor\",\"italic\":false}]',Lore:['[\"\",{\"text\":\"The Gods themself gave you this iteam\",\"italic\":false}]']},Enchantments:[{lvl:1,id:binding_curse},{lvl:3,id:unbreaking}]}",
+            "slot": "36"
+        }
+    ],
+    "recurrent": true
+}
