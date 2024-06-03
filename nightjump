@@ -1,0 +1,42 @@
+### Night Vision at night only with a 24/7 jump boost ###
+
+{
+    "name": "-Power Name-",
+    "description": "§7❖ Passive§r\n-Power description-",
+    "type": "origins:multiple",
+    "night": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:daytime"
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 1,
+        "max_stacks": 3,
+        "duration_per_stack": 200,
+        "tick_rate": 10,
+        "effect": {
+            "effect": "night_vision",
+            "duration": 100,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        "effects": []
+    },
+    "jump": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 1,
+        "max_stacks": 3,
+        "duration_per_stack": 200,
+        "tick_rate": 10,
+        "effect": {
+            "effect": "jump_boost",
+            "duration": 100,
+            "amplifier": 2,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}
