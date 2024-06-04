@@ -1,0 +1,12 @@
+###simple one###
+{
+    "name": "Less Health",
+    "description": "§7❖ Passive§r\nAs a theif u have half the health has a normal person",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": -6                                                                                       ### changes how much health you have ###
+    },
+    "update_health": true
+}
